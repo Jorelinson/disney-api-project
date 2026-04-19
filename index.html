@@ -1,15 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Disney Explorer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
 
-    <h1> Disney Explorer </h1>
+    <h1>Disney Explorer</h1>
 
+    <!-- Filtros -->
     <div>
         <input type="text" id="search" placeholder="Buscar personaje...">
         <input type="text" id="series" placeholder="Filtrar por serie...">
         <button onclick="filtrar()">Filtrar</button>
     </div>
 
+    <!-- Loader -->
     <div id="loader" class="loader" style="display:none;"></div>
 
+    <!-- Contenedor de personajes -->
     <div id="contenedor"></div>
 
+    <!-- JS (IMPORTANTE: al final) -->
+    <script src="script.js"></script>
+
 </body>
+</html>
